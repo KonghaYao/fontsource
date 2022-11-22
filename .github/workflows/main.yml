@@ -19,6 +19,7 @@ jobs:
         run: yarn util:algolia
         env:
           ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+          ALGOLIA_APPID: ${{ secrets.ALGOLIA_APPID }}
 
 #       - name: Format files
 #         run: yarn format
